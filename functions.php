@@ -138,6 +138,7 @@ add_action( 'widgets_init', 'k_telecom_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function k_telecom_theme_scripts() {
+	wp_enqueue_style('style-min-css', get_stylesheet_directory_uri() . '/css/scss/style.min.css', array());
 	wp_enqueue_style( 'k-telecom-theme-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'k-telecom-theme-style', 'rtl', 'replace' );
 
@@ -169,10 +170,6 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
-}
+remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
+remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );
 

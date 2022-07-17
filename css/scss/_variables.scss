@@ -1,0 +1,64 @@
+
+/* Color Theme Swatches in Hex */
+
+
+//
+// Color system
+//
+
+$white:         #FFFFFF !default;
+$light-gray:    #c2c2c2 !default;
+$gray:          #555555 !default;
+$black:         #2D2D2D !default;
+$primary:       #C81059 !default;
+$secondary:     #0099C8 !default;
+$light:         #F2F6F8 !default;
+
+$min-contrast-ratio:   1.65 !default;
+
+$enable-shadows:              true !default;
+
+// Body
+$body-color:                $gray !default;
+$headings-color:            $black !default;
+// Fonts
+
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, 'Open Sans', "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Bootstrap-Icons", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+
+// Components
+
+$box-shadow:                  0 .5rem 1rem rgba(0,0,0,.05) !default;
+$box-shadow-lg:               0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !default;
+$transition:                  color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out, visibility 0.3s linear, opacity 0.3s linear, background-size 0.3 ease-in-out;
+
+// Buttons + Forms
+
+$input-btn-padding-y:         15px !default;
+$input-btn-padding-x:         25px !default;
+$input-btn-font-size:         $font-size-sm !default;
+
+// Buttons
+
+$btn-font-weight:             500 !default;
+$btn-box-shadow:              $box-shadow !default;
+$btn-focus-box-shadow:        $box-shadow !default;
+$btn-active-box-shadow:       $box-shadow !default;
+$btn-border-radius:           5px !default;
+
+$scale:                       scale(1.2);
+
+// Forms
+$input-font-family:           'Open Sans';
+$input-placeholder-color:     rgba(45, 45, 45, 0.3);
+
+$form-check-input-border:        2px solid rgba(45, 45, 45, 0.1);
+$form-check-input-border-radius: 2px !default;
+
+// Container
+
+$container-max-widths: (
+  xxl: 1100px
+);

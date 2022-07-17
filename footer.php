@@ -11,21 +11,14 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'k-telecom-theme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'k-telecom-theme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'k-telecom-theme' ), 'k-telecom-theme', '<a href="https://webton.ru">Vladislav Zorin</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer class="site-footer">
+		<div class="site-info container">
+			<div class="site-branding col-50">
+				<a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/logo.svg" alt="logo" class="logo"></a>
+				<span class="copyright">© 2018–2022 ООО «К-Телеком»</span>
+			</div>
+		</div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

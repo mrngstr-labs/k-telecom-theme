@@ -1,0 +1,25 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/CeraRoundProRegular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../fonts/CeraRoundProMedium.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cera Round Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/CeraRoundProBold.woff") format("woff");
+    font-display: swap;
+}

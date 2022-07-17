@@ -1,0 +1,35 @@
+/* Text */
+a {text-decoration: none;}
+h1, h2, h3, h4, h5, h6 {
+	color: var(--black-color);
+	font-family: 'Cera Round Pro';
+	font-style: normal;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	margin-top: 0;
+	margin-bottom: 10px;
+	clear: both;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+h2 {
+	font-weight: 500;
+	font-size: 35px;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-left: 35px;
+}
+li {
+	color: var(--gray-color);
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 200%;
+	letter-spacing: 0.02em;
+}

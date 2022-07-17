@@ -1,0 +1,29 @@
+/* Buttons */
+.btn {
+	padding: 15px 80px;
+	border-radius: 5px;
+	font-family: 'Cera Round Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	border: 2px solid;
+}
+
+.btn-sm {
+	padding: 12px 60px;
+}
+
+.btn-primary {
+	background-color: var(--main-color);
+	color: var(--white-color);
+	border-color: var(--main-color);
+	transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+	background-color: transparent;
+	color: var(--main-color);
+	border-color: var(--main-color);
+	transition: all 0.3s ease-in-out;
+}
