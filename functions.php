@@ -150,25 +150,11 @@ function k_telecom_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'k_telecom_theme_scripts' );
 
-/**
- * Implement the Custom Header feature.
- */
+// Допонительные функции
 require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
 require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
 require get_template_directory() . '/inc/template-functions.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
+require_once __DIR__ . '/inc/tariff/tariff.php';
 
 remove_action( 'wp_enqueue_scripts', 'wp_enqueue_global_styles' );
 remove_action( 'wp_body_open', 'wp_global_styles_render_svg_filters' );

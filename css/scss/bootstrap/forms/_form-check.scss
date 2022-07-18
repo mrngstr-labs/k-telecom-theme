@@ -17,7 +17,7 @@
 .form-check-input {
   width: $form-check-input-width;
   height: $form-check-input-width;
-  margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
+  //margin-top: ($line-height-base - $form-check-input-width) * .5; // line-height minus check height
   vertical-align: top;
   background-color: $form-check-input-bg;
   background-repeat: no-repeat;
@@ -98,6 +98,9 @@
 .form-check-label {
   color: $form-check-label-color;
   cursor: $form-check-label-cursor;
+  a {
+    color: $form-check-label-color;
+  }
 }
 
 //

@@ -8,6 +8,7 @@
 
 $white:         #FFFFFF !default;
 $light-gray:    #c2c2c2 !default;
+$half-gray:     #989898 !default;
 $gray:          #555555 !default;
 $black:         #2D2D2D !default;
 $primary:       #C81059 !default;
@@ -43,22 +44,39 @@ $input-btn-font-size:         $font-size-sm !default;
 // Buttons
 
 $btn-font-weight:             500 !default;
+$btn-font-size:               14px !default;
+$btn-font-family:             "Cera Round Pro" !default;
 $btn-box-shadow:              $box-shadow !default;
 $btn-focus-box-shadow:        $box-shadow !default;
 $btn-active-box-shadow:       $box-shadow !default;
 $btn-border-radius:           5px !default;
 
+$btn-border-radius-lg:        $btn-border-radius !default;
+$btn-font-size-lg:            $btn-font-size !default;
+$btn-padding-x-lg:            80px !default;
+$btn-padding-y-lg:            15px !default;
+
 $scale:                       scale(1.2);
 
 // Forms
+$input-border-width:          1px !default;
+$input-border-color:          transparent;
 $input-font-family:           'Open Sans';
 $input-placeholder-color:     rgba(45, 45, 45, 0.3);
 
+$form-check-input-width:         23px !default;
+$form-check-padding-start:       $form-check-input-width !default;
 $form-check-input-border:        2px solid rgba(45, 45, 45, 0.1);
 $form-check-input-border-radius: 2px !default;
 
-// Container
+$form-check-label-color:         $half-gray;
 
+// Navbar
+$navbar-padding-y:                  22px !default;
+$navbar-padding-x:                  null !default;
+
+// Container
+$container-padding-x:               45px !default;
 $container-max-widths: (
   xxl: 1100px
 );

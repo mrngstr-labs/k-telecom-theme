@@ -4,10 +4,38 @@
 .container-hero {
     padding-top: 88px;
     padding-bottom: 89px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
 }
 .form-wrapper {
     padding: 50px;
 }
-.mb-10 {
-    margin-bottom: 10px;
+.mb-10 {margin-bottom: 10px;}
+.mb-20 {margin-bottom: 20px;}
+.rounded-20 {
+    border-radius: 20px;
+}
+
+#tariff {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.site-footer {
+    margin-top: 40px;
+    padding-bottom: 21px;
+    .site-info {
+        padding: 20px 0;
+        .copyright {
+            color: $light-gray;
+            font-family: 'Cera Round Pro';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 0.02em;
+        }
+        #youtube-link {
+            margin: 0 20px;
+        }
+    }
 }

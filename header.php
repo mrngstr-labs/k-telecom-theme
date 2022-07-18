@@ -24,23 +24,10 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'k-telecom-theme' ); ?></a>
 
-	<header id="masthead" class="site-header container">
-		<nav class="navbar">
-			<div class="site-branding">
+	<header id="masthead" class="site-header">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
 				<a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/logo.svg" alt="logo" class="logo"></a>
-			</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-				<?php esc_html_e( 'Primary Menu', 'k-telecom-theme' ); ?>
-			</button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
+			</div>
 		</nav>
 	</header><!-- #masthead -->
