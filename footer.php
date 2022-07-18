@@ -9,7 +9,7 @@
 ?>
 
 	<footer class="site-footer container">
-		<div class="site-info border-top border-bottom">
+		<div class="site-info">
 			<div class="row">
 				<div class="col-6 col-md-9">
 					<div class="row">

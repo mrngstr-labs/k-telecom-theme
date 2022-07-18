@@ -22,7 +22,14 @@ $enable-shadows:              true !default;
 // Body
 $body-color:                $gray !default;
 $headings-color:            $black !default;
-// Fonts
+
+// Text
+$h1-font-size:              40px !default;
+$h2-font-size:              35px !default;
+$h3-font-size:              25px !default;
+$h4-font-size:              20px !default;
+
+$text-muted:                  rgba(#555555, 0.5) !default;
 
 // stylelint-disable-next-line value-keyword-case
 $font-family-sans-serif:      -apple-system, BlinkMacSystemFont, 'Open Sans', "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Bootstrap-Icons", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -69,11 +76,19 @@ $form-check-padding-start:       $form-check-input-width !default;
 $form-check-input-border:        2px solid rgba(45, 45, 45, 0.1);
 $form-check-input-border-radius: 2px !default;
 
+$form-check-input-checked-bg-color: $secondary;
+$form-check-input-focus-box-shadow: none;
+
 $form-check-label-color:         $half-gray;
 
 // Navbar
 $navbar-padding-y:                  22px !default;
 $navbar-padding-x:                  null !default;
+
+// Cards
+$card-spacer-x:                     30px !default;
+$card-spacer-y:                     30px !default;
+$card-border-radius:                10px !default;
 
 // Container
 $container-padding-x:               45px !default;

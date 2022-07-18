@@ -1,5 +1,31 @@
 @media (max-width: 480px) {
+    .navbar {
+        padding: 7px 10px !important;
+    }
     .form-wrapper {
         padding: 20px 10px;
+    }
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .container-hero {
+        padding: 10px !important;
+        .headline {font-size: 20px;}
+        #more-button {width: 100%;}
+        .main-img {max-width: 227px;}
+    }
+    .site-footer .site-info {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom: none !important;
+        .copyright {
+            margin-top: 5px !important;
+        }
+    }
+    #request-connect {
+        .btn-radio {
+            padding: 7px 10px !important;
+        }
     }
 }

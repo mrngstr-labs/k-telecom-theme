@@ -38,7 +38,6 @@ function register_post_type_tariff(){
             "title",
             "editor",
             "custom-fields",
-            "thumbnail",
         ],
         "has_archive"         => false,
         "rewrite"             => true,
